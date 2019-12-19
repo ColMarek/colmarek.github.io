@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #2e3355;
+  color: #ffffff;
+}
+
+.hidden {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.title {
+  font-family: "Hind", sans-serif;
+  font-size: 4rem;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.icon:hover {
+  opacity: 1;
+}
